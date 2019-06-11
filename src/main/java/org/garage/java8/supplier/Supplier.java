@@ -21,7 +21,7 @@ public class Supplier {
 
 		java.util.function.Supplier<String> randomNameExpr = () -> {
 			String[] names = { "varun", "evyaan", "vaishu", "dolly" };
-			int random = (int) (Math.random() * 3 + 1);
+			int random = (int) (Math.random() * 3 );
 			return names[random];
 		};
 
